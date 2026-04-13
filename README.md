@@ -13,7 +13,7 @@ The project includes:
 
 ---
 
-## Datasets Used
+## 📂 Datasets Used
 
 **RBI Banking Dataset (2020–2025)**
 
@@ -22,9 +22,12 @@ The project includes:
 * Bank-wise and bank-type data
 * Category-wise transaction details
 
+🔗 Dataset Source:
+[https://rbi.org.in/scripts/ATMView.aspx?atmid=161](https://rbi.org.in/scripts/ATMView.aspx?atmid=161)
+
 ---
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 * Power BI – Dashboard Development & Visualization
 * Power Query – Data Transformation
@@ -32,77 +35,139 @@ The project includes:
 
 ---
 
-## Key Dashboards Developed
+## 📊 Dashboard Access
+
+🔗 **View Full Dashboard (.pbix file):**
+[https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/RBI%20Infrastrcuture%20and%20Transaction%20Anlaysis.pbix](https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/RBI%20Infrastrcuture%20and%20Transaction%20Anlaysis.pbix)
+
+---
+
+## 📸 Dashboard Screenshots
+
+### 📍 Dashboard 1: Banking Infrastructure Overview
+
+![Dashboard 1](https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%201%20Screenshot%20.png)
+
+---
+
+### 📍 Dashboard 2: Card Business Insights
+
+![Dashboard 2](https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%202%20Screenshot.png)
+
+---
+
+### 📍 Dashboard 3: Category Wise Performance
+
+![Dashboard 3](https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%203%20Screenshot%20.png)
+
+---
+
+### 📍 Dashboard 4: Banking Overall Performance
+
+![Dashboard 4](https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%204%20Screenshot%20.png)
+
+---
+
+Here is your content in **proper GitHub README (Markdown) format** 👇 (clean, aligned, ready to paste)
+
+---
+
+## 📊 Key Dashboards Developed
 
 ---
 
 ### 1️) Dashboard – Banking Infrastructure Overview
 
-This dashboard provides a clear view of infrastructure growth and distribution across banks and categories.
+#### 📌 Charts & Explanation
 
-**Charts & Explanation:**
+* **Infrastructure YoY Growth by Year**
+  Shows the year-on-year growth of banking infrastructure from 2020 to 2025, helping identify periods of rapid expansion and slower growth trends.
 
-* Infrastructure YoY Growth by Year – Shows growth trends from 2020 to 2025, highlighting peaks and slowdowns
-* Infrastructure Share by Category – Displays contribution of categories like debit cards and UPI QR codes dominating digital infrastructure
-* Infrastructure by Bank Type – Compares private, public, payment, small finance, and foreign banks
-* Bank-wise Infrastructure – Identifies top and low contributing banks
-* Total ATMs Per Bank – Highlights ATM distribution and accessibility
-* Physical vs Digital Infrastructure – Shows strong dominance of digital infrastructure over physical
+* **Infrastructure Share by Category**
+  Displays the contribution of different categories such as debit cards, UPI QR codes, credit cards, and Micro ATMs, highlighting the dominance of digital infrastructure.
+
+* **Infrastructure by Bank Type**
+  Compares infrastructure distribution across private, public, payment, small finance, and foreign banks to understand which sector contributes the most.
+
+* **Bank-wise Infrastructure**
+  Provides a comparison of infrastructure contribution by individual banks, identifying leading and underperforming banks.
+
+* **Total ATMs Per Bank**
+  Shows ATM distribution across banks, indicating accessibility and physical banking reach.
+
+* **Physical vs Digital Infrastructure**
+  Compares physical infrastructure (ATM, POS) with digital infrastructure (UPI QR, Bharat QR), highlighting the shift toward digital banking.
 
 ---
 
 ### 2️) Dashboard – Card Business Insights
 
-This dashboard focuses on card transaction performance with a dynamic parameter to switch between transaction count and value.
+#### 📌 Charts & Explanation
 
-**Charts & Explanation:**
+* **Transaction Growth Trend**
+  Illustrates the growth or decline in transactions over time, showing adoption trends of card usage.
 
-* Transaction Growth Trend – Shows increase or decrease in transactions over time
-* Transaction by Bank Type – Compares performance across different bank types
-* Transaction by Category – Analyzes ATM, POS, and online transactions
-* Bank-wise Transactions – Identifies top-performing banks
-* Bank-wise Transactions by Category – Provides detailed breakdown across categories
-* Average Transaction by Bank – Highlights transaction efficiency and value trends
+* **Transaction by Bank Type**
+  Compares transaction activity across different bank types, helping identify which sector dominates transaction volume or value.
+
+* **Transaction by Category**
+  Breaks down transactions into categories such as ATM, POS, and online, showing how customers interact with banking services.
+
+* **Bank-wise Transactions**
+  Highlights transaction performance of individual banks, identifying top contributors.
+
+* **Bank-wise Transactions by Category**
+  Provides a detailed breakdown of each bank’s transactions across categories, offering deeper insights into performance.
+
+* **Average Transaction by Bank**
+  Shows average transaction count or value per bank, helping evaluate transaction efficiency and customer spending patterns.
 
 ---
 
-### 3️) Dashboard – Category Wise Performance (2025 Focus)
+### 3️) Dashboard – Category Wise Performance
 
-This dashboard provides category-level insights into infrastructure and transactions.
+#### 📌 Charts & Explanation
 
-**Charts & Explanation:**
+* **Infra Count by Bank Type & Category**
+  Displays how infrastructure is distributed across bank types and categories, highlighting dominant segments like UPI QR.
 
-* Infra Count by Bank Type & Category – Shows infrastructure distribution across categories
-* Transaction Count by Bank Type & Category – Highlights category contribution to transaction volume
-* Transaction Value by Bank Type & Category – Identifies high-value transaction categories
-* Infra Count YoY by Category – Shows category-wise infrastructure growth
-* Transaction Count YoY by Category – Tracks changes in transaction activity
-* Transaction Value YoY by Category – Analyzes financial growth trends
+* **Transaction Count by Bank Type & Category**
+  Shows how transaction volume is distributed across different categories and bank types.
+
+* **Transaction Value by Bank Type & Category**
+  Highlights the monetary contribution of each category, identifying high-value transaction channels.
+
+* **Infra Count YoY by Category**
+  Tracks growth of infrastructure across categories over the years, showing expansion trends.
+
+* **Transaction Count YoY by Category**
+  Shows yearly changes in transaction volume for each category, indicating shifts in customer behavior.
+
+* **Transaction Value YoY by Category**
+  Analyzes financial growth trends across categories over time.
 
 ---
 
 ### 4️) Dashboard – Banking Overall Performance
 
-This dashboard combines infrastructure and transaction data for overall performance analysis.
+#### 📌 Charts & Explanation
 
-**Charts & Explanation:**
+* **Infrastructure vs Transaction Performance**
+  Compares infrastructure count with transaction activity, helping evaluate how efficiently banks utilize resources.
 
-* Infrastructure vs Transaction Performance – Evaluates efficiency of banks
-* Bank-wise Performance Overview – Compares infrastructure, transaction count %, and value %
-* Average Transaction by Bank & Category – Shows dominant transaction modes
-* Bank Count YoY Trend – Tracks growth in number of banks
-* Bank Headquarters Distribution – Shows geographic spread of banks
+* **Bank-wise Performance Overview**
+  Provides a combined view of infrastructure, transaction count percentage, and transaction value percentage for each bank.
 
----
+* **Average Transaction by Bank & Category**
+  Shows average transaction distribution across categories, helping identify dominant transaction modes.
 
-## Dashboard Screenshots
+* **Bank Count YoY Trend**
+  Tracks the number of banks over time, indicating growth or stability in the banking sector.
 
-(Add your Power BI dashboard screenshots here)
-Dashboard 1 screenshot (https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%202%20Screenshot.png)
+* **Bank Headquarters Distribution**
+  Displays geographic distribution of bank headquarters, helping understand regional concentration of banks.
 
----
-
-## Final Conclusion
+## 📌 Final Conclusion
 
 The project provides a comprehensive analysis of RBI banking data, highlighting the rapid growth of digital infrastructure such as UPI QR and debit cards. It also reveals transaction trends, bank performance, and category-level contributions. The insights help in understanding banking efficiency, digital adoption, and areas requiring improvement, supporting data-driven decision-making in the financial sector.
 
