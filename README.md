@@ -98,6 +98,7 @@ This dashboard combines infrastructure and transaction data for overall performa
 ## Dashboard Screenshots
 
 (Add your Power BI dashboard screenshots here)
+Dashboard 1 screenshot (https://github.com/dheivii/RBI-Infrastructure-and-Transaction-using-Power-BI/blob/main/Dashboard%202%20Screenshot.png)
 
 ---
 
